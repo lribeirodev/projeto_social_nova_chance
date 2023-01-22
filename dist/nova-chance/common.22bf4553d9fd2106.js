@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknova_chance=self.webpackChunknova_chance||[]).push([[592],{336:(u,n,c)=>{c.d(n,{j:()=>r});var t=c(223);let r=(()=>{class e{changeTitle(a){a.data.subscribe(s=>{window.document.title=s.title})}}return e.\u0275fac=function(a){return new(a||e)},e.\u0275prov=t.Yz7({token:e,factory:e.\u0275fac,providedIn:"root"}),e})()}}]);
