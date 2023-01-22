@@ -1,0 +1,34 @@
+<div class="carousel-banner-cmp">
+  <div class="caoursel-banner-cmp__container">
+    <div class="carousel-banner-cmp__container__images">
+
+      <div class="carousel-banner-cmp__container__images__top">
+        <ng-container *ngFor="let image of arrImages | slice:0:2; let i = index">
+          <ng-container>
+            <img [src]="image.link" [ngClass]="image.classDesktop">
+          </ng-container>
+        </ng-container>
+      </div>
+
+      <div class="carousel-banner-cmp__container__images__bottom">
+        <ng-container *ngFor="let image of arrImages | slice:2:4; let i = index">
+          <ng-container>
+            <img [src]="image.link" [ngClass]="image.classDesktop">
+          </ng-container>
+        </ng-container>
+      </div>
+
+    </div>
+    <div class="carousel-banner-cmp__container__pix" id="doar">
+      <div class="carousel-banner-cmp__container__pix__title">
+        SEJA AMIGO DO PROJETO
+      </div>
+      <div class="carousel-banner-cmp__container__pix__qrcode">
+        <img src="../../../../assets/images/gallery/pix/qrcode.png">
+      </div>
+      <div class="carousel-banner-cmp__container__pix__subtitle">
+        DOAÇÃO PIX
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="card-about-us-cmp">
+  <div class="card-about-us-cmp__container">
+    <div class="card-about-us-cmp__container__title">
+      {{card.title}}
+    </div>
+    <div
+      *ngIf="isTextType()"
+      class="card-about-us-cmp__container__body"
+      [style.font-size]="card.size"
+      [style.line-height]="card.lineHeight"
+      [innerHTML]="card.body"
+      >
+    </div>
+    <ng-container *ngIf="isBulletType()">
+      <ul>
+      <ng-container *ngFor="let item of getBullets();">
+        <li
+        class="card-about-us-cmp__container__body"
+        [style.font-size]="card.size"
+        [style.line-height]="card.lineHeight"
+        [innerHTML]="item"
+        >{{item}}</li>
+      </ng-container>
+    </ul>
+    </ng-container>
+  </div>
+</div>

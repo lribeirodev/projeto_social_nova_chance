@@ -1,0 +1,22 @@
+.card-about-us-cmp {
+  width: 350px;
+  margin-left: 20px;
+  &__container{
+    background-color: #F3F3F3;
+    height: 460px;
+    &__title{
+      width: 350px;
+      height: 54px;
+      background-color: #F5951D;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      font-weight: 700;
+      border-bottom: 19px solid #ffffff;
+    }
+    &__body{
+      padding: 11px 28px 26px 28px;
+    }
+  }
+}

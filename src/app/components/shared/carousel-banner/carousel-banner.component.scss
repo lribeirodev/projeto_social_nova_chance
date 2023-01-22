@@ -1,0 +1,77 @@
+.carousel-banner-cmp {
+
+  $height-images-desktop: 400px;
+  display: flex;
+  justify-content: center;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    &__images {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 30px;
+      margin-right: 30px;
+      justify-content: center;
+      &__top {
+        display: flex;
+      }
+
+      &__bottom {
+        display: flex;
+      }
+
+      & img {
+        &.top {
+          &__left{
+            height: $height-images-desktop;
+          }
+
+          &__right{
+            height: $height-images-desktop;
+          }
+        }
+        &.bottom {
+          &__left {
+            height: $height-images-desktop;
+          }
+
+          &__right{
+            height: $height-images-desktop;
+          }
+        }
+      }
+    }
+
+    &__pix {
+      position: relative;
+      bottom: 600px;
+      left: 500px;
+      width: 0;
+      height: 0;
+      &__title {
+        background-color: white;
+        width: 267px;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &__qrcode {
+        background-color: white;
+        & img {
+          height: 250px;
+        }
+      }
+      &__subtitle {
+        background-color: white;
+        font-size: 25px;
+        font-weight: 700;
+        width: 267px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+
+  }
+}

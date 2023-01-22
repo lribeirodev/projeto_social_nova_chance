@@ -1,0 +1,16 @@
+.header-cmp{
+  &__container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: end;
+    margin-top: 37px;
+    &__item{
+      margin-inline: 31px;
+      font-family: Caudex;
+      font-style: regular;
+      font-size: 25px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

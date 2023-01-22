@@ -1,0 +1,29 @@
+@import '../../../../variables.scss';
+
+.front-actions-cmp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__container{
+    @media screen and(min-width: $desktop-large-screen){
+      width: 1300px;
+    }
+    &__title{
+      text-align: center;
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 35px;
+    }
+
+    &__cards-wrapper {
+      &__card {
+        &:last-child {
+          & ::ng-deep .card-action-cmp {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}
