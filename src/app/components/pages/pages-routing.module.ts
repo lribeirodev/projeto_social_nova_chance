@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: 'Home',
     data: {
-      title: "Nova Chance - Mudando Sonhos na Comunidade",
+      title: "Nova Chance - Plantando Sonhos na Comunidade",
       content: "/assets/pages/home/"
     },
     component: PagesComponent,
@@ -15,7 +15,7 @@ const routes: Routes = [
   {
     path: "Doar",
     data: {
-      title: "Seja um amigo do Projeto Nova Chance",
+      title: "Nova Chance - Seja um amigo do Projeto Nova Chance",
       content: "/assets/pages/doar/"
     },
     component: PagesComponent,
