@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { CARD_FRONT_ACTION } from "../front-actions.component";
+import { CARD_FRONT_ACTION } from "src/app/components/core/interfaces/components/front-actions/front-actions.interface";
 
 @Component({
   selector: "app-card-action",

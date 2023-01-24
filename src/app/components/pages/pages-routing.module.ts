@@ -7,6 +7,7 @@ const routes: Routes = [
     path: 'Home',
     data: {
       title: "Nova Chance - Mudando Sonhos na Comunidade",
+      content: "/assets/pages/home/"
     },
     component: PagesComponent,
     loadChildren: () => import("./home/home.module").then(m => m.HomeModule),
@@ -15,6 +16,7 @@ const routes: Routes = [
     path: "Doar",
     data: {
       title: "Seja um amigo do Projeto Nova Chance",
+      content: "/assets/pages/doar/"
     },
     component: PagesComponent,
     loadChildren: () => import("./donation/donation.module").then(m => m.DonationModule),

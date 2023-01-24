@@ -15,6 +15,7 @@ import { ContactFormComponent } from '../../shared/contact-form/contact-form.com
 import { ContactFormModule } from '../../shared/contact-form/contact-form.module';
 import { BackTopComponent } from '../../shared/back-top/back-top.component';
 import { BackTopModule } from '../../shared/back-top/back-top.module';
+import { LoadingModule } from '../../shared/loading/loading.module';
 
 @NgModule({
   declarations: [HomeComponent],
@@ -31,6 +32,7 @@ import { BackTopModule } from '../../shared/back-top/back-top.module';
     VideoPlayerModule,
     ContactFormModule,
     BackTopModule,
+    LoadingModule,
   ]
 })
 export class HomeModule { }

@@ -1,0 +1,30 @@
+{
+  "images" : [
+    {
+      "imageSrc":"/assets/images/gallery/carousel/image_0.jpeg"
+    },
+    {
+      "imageSrc":"/assets/images/gallery/carousel/image_1.jpeg"
+    },
+    {
+      "imageSrc":"/assets/images/gallery/carousel/image_2.jpeg"
+    },
+    {
+      "imageSrc":"/assets/images/gallery/carousel/image_3.jpeg"
+    }
+  ],
+  "donation" : [
+    {
+      "type":"text",
+      "value":"SEJA AMIGO DO PROJETO"
+    },
+    {
+      "type":"image",
+      "value":"/assets/images/gallery/pix/qrcode.png"
+    },
+    {
+      "type":"text",
+      "value":"CHAVE PIX CNPJ: 45.197.708/0001-12"
+    }
+  ]
+}

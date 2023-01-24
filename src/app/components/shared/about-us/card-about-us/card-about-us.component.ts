@@ -1,6 +1,6 @@
 import { Component, Input } from "@angular/core";
-import { CARD_ABOUT_US, TYPE_CARD_ABOUT_US } from "../about-us.component";
-
+import { TYPE_CARD_ABOUT_US } from "src/app/components/core/enum/components/about-us/about-us.enum";
+import { CARD_ABOUT_US } from "src/app/components/core/interfaces/components/about-us/about-us.interface";
 @Component({
   selector: 'app-card-about-us',
   templateUrl: './card-about-us.component.html',

@@ -1,0 +1,32 @@
+.loading-cmp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  @keyframes fly-animation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(50deg);
+    }
+    50% {
+      transform: rotateY(150deg);
+    }
+
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__text {
+      margin-bottom: 10px;
+    }
+    &__animation {
+      width: 70px;
+      animation: fly-animation 5s infinite;
+    }
+  }
+}

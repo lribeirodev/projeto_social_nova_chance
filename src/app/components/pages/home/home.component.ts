@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { ContentService } from '../../core/services/content.service';
 import { PagesService } from '../../core/services/pages.service';
 
 @Component({
@@ -11,9 +12,9 @@ import { PagesService } from '../../core/services/pages.service';
 export class HomeComponent {
 
   constructor(
-    private router: ActivatedRoute,
+    private route: ActivatedRoute,
     private service: PagesService,
     ) {
-      this.service.changeTitle(this.router);
+      this.service.changeTitle(this.route);
   };
 }

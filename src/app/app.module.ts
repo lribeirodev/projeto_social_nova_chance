@@ -3,8 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './components/pages/pages.module';
-import { LinerComponent } from './components/shared/liner/liner.component';
-import { BackTopComponent } from './components/shared/back-top/back-top.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,6 +13,7 @@ import { BackTopComponent } from './components/shared/back-top/back-top.componen
     BrowserModule,
     AppRoutingModule,
     PagesModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

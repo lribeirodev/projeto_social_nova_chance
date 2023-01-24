@@ -1,5 +1,6 @@
 <div class="front-actions-cmp">
-  <div class="front-actions-cmp__container">
+  <app-loading [isLoading]="loading"></app-loading>
+  <div class="front-actions-cmp__container" *ngIf="!loading">
     <div class="front-actions-cmp__container__title">
       {{title}}
     </div>
