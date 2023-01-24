@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { CarouselBannerComponent } from './carousel-banner.component';
 import { LoadingModule } from '../loading/loading.module';
+import { ContentService } from '../../core/services/content.service';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -10,7 +12,11 @@ import { LoadingModule } from '../loading/loading.module';
   imports: [
     CommonModule,
     LoadingModule,
+    RouterModule,
   ],
-  exports:[CarouselBannerComponent,]
+  exports:[CarouselBannerComponent,],
+  providers: [
+    ContentService,
+  ]
 })
 export class CarouselBannerModule { }

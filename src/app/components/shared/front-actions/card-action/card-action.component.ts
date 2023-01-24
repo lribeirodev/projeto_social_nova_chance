@@ -12,18 +12,14 @@ export class CardActionComponent implements OnInit {
   @Input() card!: CARD_FRONT_ACTION;
   private _position!: CARD_FRONT_ACTION_POSITION;
 
-  @HostListener('window:resize', ['$event'])
-  public isMobile() {
-    this.checkOuterWidth();
-  }
-
   public ngOnInit(): void {
-    this.checkOuterWidth();
+    this.toggleVisionBetweenDesktopAndMobile();
   }
 
-  private checkOuterWidth() {
+  @HostListener('window:resize', ['$event'])
+  private toggleVisionBetweenDesktopAndMobile() {
+    if(this.card.position !== CARD_FRONT_ACTION_POSITION.NONE) this._position = this.card.position;
     if(window.outerWidth <= 500){
-      if(this.card.position !== CARD_FRONT_ACTION_POSITION.NONE) this._position = this.card.position;
       this.card.position = CARD_FRONT_ACTION_POSITION.NONE;
     } else {
       this.card.position = this._position;
