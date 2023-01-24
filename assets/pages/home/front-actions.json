@@ -1,0 +1,35 @@
+{
+  "title":"Atividades recorrentes que levam a esperança para familias e crianças",
+  "actions": [
+    {
+      "title":"futebol",
+      "body":"Os treinos de futebol ocorrem todas as tardes de sábados, para as crianças de 7 a 15 anos. O futebol é um ótimo esporte para estimular o trabalho em equipe enquanto pratica-se uma atividade prazerosa e divertida. Além disso, trabalhamos valores como empatia, perdão e respeito.",
+      "imageSrc":"./assets/images/gallery/front-actions/image_0.png",
+      "position":"position__left"
+    },
+    {
+      "title":"roda de conversa e leitura",
+      "body":"A roda de leitura atende semanalmente crianças de 7 a 12 anos. Nelas são trabalhadas temáticas ligadas a “valores” como respeito, amor, honestidade, igualdade, caráter e empatia, estimulando-as a desenvolver boas atitudes éticas e morais, além de ser um estímulo para que sigam se alfabetizando e estudando. Já as rodas de conversa são direcionadas a adolescentes, com objetivo de abordar temas relacionados ao desenvolvimento pessoal.",
+      "imageSrc":"./assets/images/gallery/front-actions/image_1.png",
+      "position":"position__right"
+    },
+    {
+      "title":"palestras",
+      "body":"Oferecemos palestras nas quais o Anderson conta sobre sua história e os aprendizados que teve ao longo de sua trajetória de superação. Estas palestras podem ocorrer em escolas, cursos, empresas, sendo muito bem recebidas por adolescentes e adultos.",
+      "imageSrc":"./assets/images/gallery/front-actions/image_2.png",
+      "position":"position__left"
+    },
+    {
+      "title":"atendimento às famílias",
+      "body":"Como elemento estratégico da nossa atuação na comunidade, nós realizamos reuniões periódicas com as famílias para ouvir suas necessidades e também contar sobre as novidades do projeto. Além disso, realizamos os cadastros das famílias de forma sistematizada, para que possamos ter as informações necessárias à realização de nossas atividades.",
+      "imageSrc":"./assets/images/gallery/front-actions/image_3.png",
+      "position":"position__right"
+    },
+    {
+      "title":"brinquedoteca",
+      "body":"Em 2021 estreamos a brinquedoteca, na qual oferecemos brinquedos e livros às crianças da comunidade durante os períodos de atendimento. Com isso, estimulamos a criatividade e permitimos que as crianças aprendam brincando.",
+      "imageSrc":"./assets/images/gallery/front-actions/image_4.png",
+      "position":"position__left"
+    }
+  ]
+}
