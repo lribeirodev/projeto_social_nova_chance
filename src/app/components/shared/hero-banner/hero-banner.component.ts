@@ -11,12 +11,16 @@ import { ContentService } from '../../core/services/content.service';
 export class HeroBannerComponent implements OnInit {
 
   public hero!: HERO_BANNER;
+  public loading: boolean = true;
 
   constructor(private content: ContentService, private route: ActivatedRoute,){}
 
   ngOnInit(): void {
     this.content.requestData<HERO_BANNER>(this.route, 'hero-banner')
-    .then(data => this.hero = data);
+    .then(data => this.hero = data)
+    .finally(() => {
+      this.loading = false;
+    });
   }
 
 }

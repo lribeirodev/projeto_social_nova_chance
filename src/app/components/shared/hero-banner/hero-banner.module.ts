@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeroBannerComponent } from './hero-banner.component';
 import { RouterModule } from '@angular/router';
 import { ContentService } from '../../core/services/content.service';
+import { LoadingModule } from '../loading/loading.module';
 
 
 
@@ -13,6 +14,7 @@ import { ContentService } from '../../core/services/content.service';
   imports: [
     CommonModule,
     RouterModule,
+    LoadingModule,
   ],
   exports:[
     HeroBannerComponent,

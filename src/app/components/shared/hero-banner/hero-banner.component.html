@@ -1,5 +1,6 @@
 <div class="hero-banner-cmp">
-  <div class="hero-banner-cmp__container">
+  <app-loading [isLoading]="loading"></app-loading>
+  <div class="hero-banner-cmp__container" *ngIf="!loading">
     <div class="hero-banner-cmp__container__hero">
       <img [src]="hero.imageSrc">
     </div>
