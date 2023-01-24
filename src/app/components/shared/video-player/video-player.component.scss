@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 500px){
+    margin-bottom: 46px;
+  }
+
   &__container {
     &__title {
       text-align: center;
@@ -13,9 +18,20 @@
     }
 
     &__player {
+
+      @media screen and (max-width: 500px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       & iframe {
         height: 500px;
         width: 1000px;
+
+        @media screen and (max-width: 500px){
+          width: auto;
+        }
       }
     }
   }

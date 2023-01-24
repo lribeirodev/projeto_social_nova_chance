@@ -4,6 +4,9 @@
   right: 0;
   height: 3000px;
   z-index: 1;
+  @media screen and (max-width: 500px){
+    display: none;
+  }
   &__container {
     position: sticky;
     top: 500px;

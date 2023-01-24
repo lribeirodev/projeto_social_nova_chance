@@ -1,6 +1,10 @@
 .card-about-us-cmp {
   width: 350px;
   margin-left: 20px;
+  @media screen and (max-width: 500px){
+    margin-left: 0;
+    width: auto;
+  }
   &__container{
     background-color: #F3F3F3;
     height: 460px;
@@ -14,6 +18,11 @@
       font-size: 32px;
       font-weight: 700;
       border-bottom: 19px solid #ffffff;
+
+      @media screen and (max-width: 500px){
+        margin-top: 30px;
+        width: auto;
+      }
     }
     &__body{
       padding: 11px 28px 26px 28px;

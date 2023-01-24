@@ -2,6 +2,7 @@
   &__container {
     display: flex;
     justify-content: center;
+
     &__contact-button {
 
       @keyframes button-animation {
@@ -10,11 +11,17 @@
           height: 120px;
           border: 2px solid #F5951D;
           color: #F5951D;
+          @media screen and (max-width: 500px){
+            width: 250px;
+          }
         } to {
           width: 550px;
           height: 120px;
           border: 2px solid #ff5500;
           color: #ff5500;
+          @media screen and (max-width: 500px){
+            width: 300px;
+          }
         }
       }
 
@@ -24,11 +31,17 @@
           height: 120px;
           border: 2px solid #F5951D;
           color: #F5951D;
+          @media screen and (max-width: 500px){
+            width: 250px;
+          }
         } to {
           width: 550px;
           height: 120px;
           border: 2px solid #ff5500;
           color: #ff5500;
+          @media screen and (max-width: 500px){
+            width: 300px;
+          }
         }
       }
 
@@ -43,10 +56,20 @@
         color: #F5951D;
         cursor: pointer;
 
+        @media screen and (max-width: 500px){
+          animation-name: none;
+          width: 250px;
+        }
+
         &:not(:hover){
           animation-name: button-reverse;
           animation-duration: 0.7s;
           animation-direction: reverse;
+
+          @media screen and (max-width: 500px){
+            animation-name: none;
+            width: 250px;
+          }
         }
 
         &:hover {
@@ -57,7 +80,14 @@
           animation-name: button-animation;
           animation-duration: 1s;
           animation-direction: normal;
+
+          @media screen and (max-width: 500px){
+            animation-name: none;
+            width: 250px;
+          }
         }
+
+
       }
     }
   }

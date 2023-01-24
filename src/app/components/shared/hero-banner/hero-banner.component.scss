@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @media screen and (max-width: 500px){
+      overflow-x: hidden;
+    }
     &__hero{
       height: 350px;
       & img {

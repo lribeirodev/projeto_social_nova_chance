@@ -1,4 +1,7 @@
 .title-cmp {
+  @media screen and (max-width: 500px){
+    display: none;
+  }
   &__container {
     &__middle {
       display: flex;
